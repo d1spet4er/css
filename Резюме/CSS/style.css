@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(250, 218, 218);
+    color: black;
+
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+  color: rgb(2, 2, 2);  
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(0, 0, 254);
+}
+
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 5px 5px rgb(181, 181, 181);
+    
+}
+
+
+.info {
+    color: rgb(48, 48, 48);
+    margin: 0;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info2 {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.card {
+    padding: 15px 20px;
+    background-color: rgba(137, 43, 226, 0.58);
+    margin-bottom: 20px;
+    border-radius: 40px;
+
+}
+
+.table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 0 20px;
+
+}
+
+.table li {
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.text {
+    margin-left: 25px;
+}
+
+
+
+
+
